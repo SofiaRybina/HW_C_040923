@@ -29,7 +29,7 @@ void PrintMatrix(double[,] matrix)
         Console.Write("|");
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-           {matrix[i, j], 8}"); //5 это длина строки вместе с выводимым числом
+           {matrix[i, j], 8}"); //8 это длина строки вместе с выводимым числом
         }
         Console.WriteLine("|");
     }
